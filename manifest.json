@@ -11,15 +11,12 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://webrtc.github.io/samples/*", "http://localhost:*/*",
-      "https://tpcstld-stream.herokuapp.com/*"],
+      "matches": ["https://tpcstld-stream.herokuapp.com/*"],
       "js": ["content-script.js"]
     }
   ],
   "permissions": [
     "desktopCapture",
-    "https://webrtc.github.io/samples/*",
-    "http://localhost:*/*",
     "https://tpcstld-stream.herokuapp.com/*"
   ]
 }
