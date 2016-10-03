@@ -1,6 +1,6 @@
 'use strict';
 
-var dataSources = ['screen', 'window'];
+var dataSources = ['screen', 'window', 'audio'];
 var desktopMediaRequestId = '';
 
 chrome.runtime.onConnect.addListener(function(port) {
