@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://tpcstld-stream.herokuapp.com/*", "http://localhost:5000/*"],
+      "matches": ["https://tpcstld-stream.herokuapp.com/*"],
       "js": ["content-script.js"]
     }
   ],
@@ -19,6 +19,5 @@
     "tabs",
     "desktopCapture",
     "https://tpcstld-stream.herokuapp.com/*",
-    "http://localhost:5000/*"
   ]
 }
